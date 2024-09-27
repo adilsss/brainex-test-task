@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.card img {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+}

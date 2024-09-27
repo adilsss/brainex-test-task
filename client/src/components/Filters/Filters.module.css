@@ -1,0 +1,95 @@
+.filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+.filter {
+    margin-top: 32px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 32px;
+    width: 100%;
+    max-width: 412px;
+    gap: 32px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #F2F2F2
+}
+
+.showHideBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.filterItem {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.filterWrap {
+    width: 100%;
+}
+
+.reset {
+    padding: 12px 38px;
+    background: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    color: #808080;
+}
+
+.botInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 480px) {
+    .filters {
+        margin: auto;
+        max-width: 1000px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 960px) {
+    .filters {
+        margin: auto;
+        max-width: 1000px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .filters {
+        margin: 0;
+    }
+}

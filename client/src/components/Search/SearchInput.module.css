@@ -1,0 +1,26 @@
+.inputContainer {
+    position: relative;
+    width: 100%;
+}
+
+.inputField {
+    height: 64px;
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+
+    &:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+}
+
+.searchIcon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}

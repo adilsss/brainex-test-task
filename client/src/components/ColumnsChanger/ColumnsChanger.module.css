@@ -1,0 +1,44 @@
+.columnsChanger {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.stepItem {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    color: black;
+    border-radius: 50%;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #F2F2F2;
+}
+
+.progressLineContainer {
+    left: 15px;
+    right: 15px;
+    position: absolute;
+    background-color: #F2F2F2;
+}
+
+.progressLine {
+    height: 15px;
+    background-color: #FDBC11;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.stepItem.active {
+    background-color: #FDBC11;
+}
+
+@media (max-width: 960px) {
+    .columnsChanger {
+        display: none;
+    }
+}
